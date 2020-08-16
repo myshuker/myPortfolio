@@ -35,6 +35,37 @@ class Projects extends Component {
                   "url(data:image/png;base64,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) center / cover",
               }}
             >
+              Treasure Hunt Game for children
+            </CardTitle>
+            <CardText>
+              We code this game for kids as a final Project of Hack Your Future Course
+              
+            </CardText>
+            <CardActions className="project-content" border>
+            <a href = 'https://github.com/myshuker/game_app_DB' target = "_blank"> GitHub</a>
+            <a href = 'https://www.youtube.com/watch?v=43PAkVx5wyw' target = "_blank"> Live Demo</a>
+
+              {/* <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button> */}
+
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAkFBMVEUoLDQJ06wI1q4F27IG2LAoKTIoKjMqESYpFigpIC0oJzEpIi4pGCkpHiwpGiopHCslSkcpEiYMy6YSuJgQv50egW8jWlMbkHoqCSMfemomQEEcinYOxaIYn4UUs5QhaF0nMjgnOz4VqY0Zl38iYlgnMDclRUQgcmQcjHckUEwmQ0MqByIjVU8nPD4rABggbmEh635eAAAKUklEQVR4nO2dCXPiPBKGbUm+JB/4Agw2hwkhzITJ//93a7Vk8AHfzlbtzmTtfmqqJtgmBW+1pL6kGAaCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiC/PexhPAEt//5IS5EFHn8z3yi/wOEc8232/zrGHvWq2d4EC/yvK7zT1f8yc/2fXG+SsoaKCs/ju5T4Xh8PSXNQ6R5qrzEf/oTfkeimhJT0ahSL/zRWOXuckeZ2T5Eq+BvfM7vRby7C6JFMbz+E+FmdxcWoPXs7S3YUqkEo5QypQ0jhdMxOGt90jcIPAS6Fd7r3zgH7IPUgSTFcrn8SPVIpKlxn/ajH6W6yOguX75/5qbUkP27VXfiBCcpSmJ4nHMvvlVqNBLy5sNt2ymUqTGyOriieSg4w8uPWZubHYB1fWrjsvyNXh/oVk5ftltRNeGdeKDty9s3l0jp/LXP/A2wFlKD9KEBj5dqUDbTvmXxVP2cvXeW13UpL21eengzQOSNLizvOrA8OqlFIuVGolRbud3QwFvJ91zm7PRGdTMk6aIfMLlvatovS/kfMZdub/7ny0ZWNmvfzd9J2X4OrnrH8u7LsfI2sCv73NwkdfjHPuT3w5HKlCPnlYep1o2l/mgSW0vZUv/PfMJviZSN7MaGY8e18kSq9dhBA63NOS+lr2SzzqWytpKPV0w/JSjbU9nc+yDdjcNPF2V7LpsL4T2B9bQe6eOWKNuz2T0Gz43VIJ6KF4ZvmrdsMQzEgQJRQdUa6mYE0h1R/74z+5UU/Da27l3jV5UU8WzLUH7ve88dtt3Z+20hRAmfXVlsOwHf49Zc5DeIExLR9UJUlHCKhr9rRnjbxnLoW1e2uJbGxt4i3hDt4UUvm8v3ozh2boiCPZJntsVF8DOHie10WwDHCqa3fC2EpT04COXpfs6FPw6Jozq0uRc5h82+ONU6M041Oh9eF8WPW+wGgquBzWadOLIjCAV+HfbbOiGy7NertTyQlT6aZNXlnf9KZD54zv5H40xIj5/IOukLvUbimdIrIbX7tz/538Py4lv6RC5CCLtDyOAJWFx3h9ibZxVGxJtt2S2Aan1Ikqa70+pjBZx2aZqQ7n31M83ygz+/ZUHE+5TeR6YcfSyrIO1BjNgNA40X+W58hLg+3WW0GcyPAUvrt7WYk8nZXpQnHUMj2emy8dYbiEHHpWNVgmZ2LK5FVXZNriz8+fhvPCwSdjczqciXIyxjDZN9+qRRwYE7O8fgYp3DG9q302TvzMQV8T9Lqr41Y2kuQyWyawJz7wI2dXsyYfEF2OFe6KwR3a+StpeGZu9ziLMsf6VL7zRZHWMvTmAA2oYHQq5aDWwZXLUzl6+K95HBf6jichAvK21yhObx5Gc4fs50ob38coNmfAVQ9ixE9KGVAazQf9vv38JIj0ABmm4DCGIhGuOhtTXbnpFg4msqv5mqWaHc61XQuqrC/IG047AhOFQmlb5tdVALhPiSYhPuwBhVmSQ7CHMlHMuMSetmKdUIa2Lz9povRyk9VkzN+pK4aGcuRi8qHoilX8xOEMOW9xAh8HSTiHmYsm4RlAFYdug4GZDRIBXY4BW+vLuiDy+DbiGPy69wDcL4befd7icsyiSbcJU+hJmdVuuuz2AdqQ6ZmIo0+VtHtebxpdKyJvoxeuy+XZxVyWE12fVUCURPTn/hc3fa8dV6uEkvCtVNWerNpvZWur9VtbHSw1SXU+gBHPuzfK8EYRXUB9Ts3zU3lf0NK9Z9+cD2pc5sNdVOQV/ObOzHyKv/mSg9DnAnrAcpD1bB+LMOSs5k2Gmjqgskm2otyx/0ALaAM9Yam6HKfN1RmqmVU5nbsyoChGV00rJV40odVzG8bnN7KRv/hOhrM3Y1wmrysmXr0XVPheeV+t4vZVNrac/90IBTN13ZwMVfjqxlnXQX0vHcpmqifPNqbrOktXac4ImhHNtkuDsIZvSHub1aSX0t56jWZ8dQ2z9N1eG1YS1ku0GGrNVDm5vyJzpjVPltkPuA17u+WdkOBBX0Ntm8W7RSuhndxVA5FhACqChBPI0SwKSeRAmWA2Epe7LUTIYApnuWXDvTt9hCKwwopGPSUzcmzUEPtYya1dCxDc6p6rSZsGoGP+i8URXevzqsnHTRjSCc/JEB+dIZkAwEu0nxkvsoFWu1uYiYz5LC04GfVe88M3NfFTqtDeSCYg7j76vNt9Vtvk1dEJAxNwWUo7VRNqLtS503mrZqjW5eqtdNc8sjrkOExhkLIFRI2t1XUSizu36kV12d3fXAxWOrQFa/4r0us7LyOHHVpLuQ61IfY9XS8aAqJfO1ERQVTu0c9ayWEBr2WY1S4R7a2jShp3DyqjVE71lbuaLlatnmawUkQgatk4pu5QpG6bJI264Rmiyn6ucOsJyvtris66TbteCGI10Mkj3pJYo7ddJC1Um1a8fMIpqDqSmEX/TaP8qqWHiOpTrDR2naSFXl+bgqn3yIqWbZnmKL9Vv96AExZftaVkP7ETvGrutHgRfIf6Gre0BIuiu7PSDNCM8u7qxEA7h/yLN+x5F+kabprjpBv1FVNy+S/m1taKeFM6vGmTuWFx/uIZPZ0+/e4UZG/W3wRHaNp15S/icgh0Yy8z9opyzJ8xzxnHCgEfcX/3Gp0oS9Fk8aHyVJ/bE//IK4Nprl+NRYN72jhYvAd46bS1Fpx6TtFNeHgNRV8bU5OJHH7UiWFIYbxecFVJIhVpLYlhBr2JdAKr0v4bZSteOfkeCWMjAVXxXzaQcco05m2Hcl0Ltg9qEMroI3eNGbydTmoScVhfkABed+dcEOILlL3wX0JwFWdyKzjrhVDVph+mEBf1fz2ZHbAXTa0Gt/QMIRA7up1ql+B9j2PtgYaQSQWyNl5EPiluaDaAs2oZpzPosMNiKToQ8Wqxh0p2a5angbNqHOevfyi3NAnPqxV343aswNUTbz+f7t+xGCzVAd+bUoG8iWjdOMtiiV21uen3R8gGw4tz0xnLWKFsiwFC1Ba3u6ksq9C+0gZak9MjfVWzNn2ZTfNmwfFcfssSPN3AzjgZ/QJjeTAsJTgmp0xIBh+5+qtaEs1Xr61Z/GdPg/2Q7n30Bc2LDrlseqvZ4lZ6HPWKx6GUl1LEE+55gUOtPM5DG52eF7qs9YNLgd79TP5bJzZjb00LSF+ZmiNgPttenYAT/pk1ArEErFCyah9aEtIQu1r2OqzWy/hwcb1MxzwC0u3POKMJXLbQ969peqlMBYtYnhcF5DFe/nPLXJlgWY9s18uVjm7XnrrHy/G5Mw2p4Rmn0sl8siUUXByfYA/h6iGJ4pTthp3Zm4bKcgeuPo40zx7bzHqCGzub3eSULTH4MY1TOq/gn2bNZOmyboiMJouhwffWq7i/pR0yJ0N+uyVUt8KZsBKkugyenqPnUsLP/4UTL1NzzKy5zjqg7CXeZ1vc0X7uvuIcuLj1/yL8ZcnTnXrPpwL4yE+DceLPx5IjHzJRRBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEAT5H/EvJVmRSKRFzTAAAAAASUVORK5CYII=) center / cover",
+              }}
+            >
               Cat-Cart Project 
             </CardTitle>
             <CardText>
@@ -55,35 +86,32 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <CardTitle
+            style={{
+              color: "#fff",
+              height: "176px",
+              background:
                   "url(data:image/png;base64,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) center / cover",
-              }}
-            >
-              Treasure Hunt Game for children
-            </CardTitle>
-            <CardText>
-              We code this game for kids as a final Project of Hack Your Future Course
-              
-            </CardText>
-            <CardActions className="project-content" border>
-            <a href = 'https://github.com/myshuker/game_app_DB' target = "_blank"> GitHub</a>
-            <a href = 'https://www.youtube.com/watch?v=43PAkVx5wyw' target = "_blank"> Live Demo</a>
-
-              {/* <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button> */}
-
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+            }}
+          >
+            React  Project 3
+          </CardTitle>
+          <CardText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            sagittis pellentesque lacus eleifend lacinia...
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            {/* <Button colored>CodePen</Button> */}
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
 
         </div>
       );
@@ -148,7 +176,7 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
             <CardActions className="project-content" border>
 
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>Live Demo</Button>
       
             </CardActions>
@@ -191,7 +219,7 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -209,16 +237,24 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
                   "url(data:image/png;base64,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) center / cover",
               }}
             >
-              HTML/CSS  Project 2
+              Pictures Slider
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+            A small project for pictures slider with JQuery
             </CardText>
-            <CardActions border>
+            <CardActions className="project-content" border>
+
+{/* 
               <Button colored>GitHub</Button>
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
+ */}
+
+<a href = 'https://github.com/myshuker/PicturesSlider' target = "_blank"> GitHub</a>
+<a href = 'https://myshuker.github.io/PicturesSlider/' target = "_blank"> Live Demo</a>
+
+
+
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -253,7 +289,7 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
           </CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
+            {/* <Button colored>CodePen</Button> */}
             <Button colored>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
@@ -279,7 +315,7 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
           </CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
+            {/* <Button colored>CodePen</Button> */}
             <Button colored>Live Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
