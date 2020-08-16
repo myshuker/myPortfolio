@@ -1,0 +1,138 @@
+.header-color, .home-grid {
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-grid {
+    text-align:center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.project-grid {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.project-content a{
+color:blue;
+text-decoration:none;
+}
+.project-content {
+    display:flex;
+justify-content:space-between;
+}
+
+
+.contact-body{
+    margin: auto;
+    /* background: gray; */
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background:white ;
+    color: black;
+    /* border: 2px solid red; */
+    /* margin-bottom: 20px ; */
+}
+
+
+.contact-grid h3{
+    font-family: 'Anton', sans-serif;
+    color: black
+}
+
+.contact-grid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-list i {
+    font-size: 50px;
+    padding-right: 5rem;
+    
+}
+
+.contact-grid hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;    
+}
+
+
+.avatar-img{
+    height: 200px;
+    width: 200px;
+    margin-top:5em;
+    border: 2px solid red;
+    border-radius: 50%;
+
+    }
+
+.banner-text{
+    background-color: black;
+    opacity:0.7;
+    width:75%;
+    margin: auto;
+    border-radius:10px;
+}
+
+.banner-text h1, h2{
+    font-size:66px;
+    font-weight:bold;
+    color:white;
+}
+
+.banner-text h2{
+    font-size:44px;
+    font-weight:blod;
+    color:white;
+}
+
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+
+.banner-text p{
+    font-size:20px;
+    padding: 1em;
+    color:white;
+}
+
+
+.social-links {
+   display: flex;
+   justify-content: space-between;
+   width:50%;
+   margin: auto;
+}
+
+.social-links i{
+   font-size: 5em;
+   color: white;
+   padding:8px;
+}
+
+
+
+.resume-right-col{
+    background: #27221f;
+    color: white;
+}
