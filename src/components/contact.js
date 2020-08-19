@@ -18,7 +18,7 @@ class Contact extends Component {
             <p style={{ width: "70%", margin: "auto", paddingTop: "1em" }}>
               {" "}
               A newbie web developer . I am passionate towards building beautiful, responsive websites and eager to adapt myself to new technologies.
-I changed my career to developer because I like this kind of sciences. I’m trying to read and code a lot every day to learn more and more. I really enjoy with coding.
+I changed my career to developer because I like this kind of sciences. I’m trying to read and code a lot every day to learn more and more so ambitious to learn every thing i can from every thing i go throw. I really enjoy with coding.
 I am really excited to see myself get transformed to this field.
 I am almost to finish my full stack development course at HackYourFuture . .{" "}
             </p>

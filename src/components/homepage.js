@@ -44,10 +44,12 @@ class HomePage extends Component{
                           {/* codepen */}
                           <a href="https://codepen.io/myshuker" rel="noopener noreferrer" target="_blank" > 
                             <i className="fa fa-codepen"  aria-hidden="true" />
-                        </a>
+                        </a>                         
 
                     </div>
-
+                            <p><small>&copy; 	Copyright &copy; {" "}
+                            {(new Date().getFullYear())} {" "}
+                            All rights reserved </small></p>                       
                     </div>
                  </Cell>
                 </Grid>
