@@ -277,9 +277,56 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
     
     
     // ---------------------------------------------------------------------------------------------------------------------------------------------
-    
-    
     else if (this.state.activeTab === 2) {
+      return (
+        <div className="project-grid">
+          {/* <h1> This is JavaScript </h1> */}
+
+         
+  
+            {/* Project 1 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "black",
+                  height: "192px",
+                  background:
+                    "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGZRleUJz53cjkl6JwAf8yBUluyGQLyGs15Q&usqp=CAU) center / cover",
+                }}
+              >
+              
+              A Weather app 
+              </CardTitle>
+              <CardText>
+              A Weather app 
+              </CardText>
+              <CardActions className="project-content" border>
+              <a href = 'https://github.com/myshuker/Weather-App' target = "_blank"> GitHub</a>
+              {'      '}
+              <a href = 'https://myshuker.github.io/Weather-App/' target = "_blank"> Live Demo</a>
+      
+                {/* <Button colored>GitHub</Button>
+                <Button colored>CodePen</Button>
+                <Button colored>Live Demo</Button>
+         */}
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+  
+
+
+        </div>
+      );
+    }
+    
+
+    
+    // ---------------------------------------------------------------------------------------------------------------------------------------------
+    
+    
+    else if (this.state.activeTab === 3) {
       return (
         <div className="project-grid">
          
@@ -349,7 +396,7 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
     
     // ---------------------------------------------------------------------------------------------------------------------------------------------
     
-    else if (this.state.activeTab === 3) {
+    else if (this.state.activeTab === 4) {
       return (
         <div className="project-grid">
          
@@ -420,6 +467,7 @@ Meal Sharing is a digital platform where you can find cheap and defferent sorts 
         >
           <Tab>React.Js</Tab>
           <Tab>Node.JS</Tab>
+          <Tab>JAvaScript</Tab>
           <Tab>HTML</Tab>
           <Tab>Databases</Tab>
         </Tabs>
