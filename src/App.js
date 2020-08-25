@@ -27,7 +27,7 @@ function App() {
                 {/* <Link to="/resume">Resume</Link> */}
                 <a href = {myResume} target = "_blank"> Resume</a>
                 <Link to="/contact">Contact</Link>
-                <Link to="/aboutme">About me</Link>
+                {/* <Link to="/aboutme">About me</Link> */}
             </Navigation>
         </Drawer>
         <Content>
